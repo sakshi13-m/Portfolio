@@ -1,0 +1,36 @@
+.about-me-div {
+    background-color: #ecf5f2fc;
+    color: #1b2d2d;
+    margin: 20px auto;
+    width: 80vw;
+    box-shadow: 5px 3px 2px 4px #161d3c;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 16px;
+    padding: 8px;
+    color: white;
+    width: 98px;
+    border-radius: 0 6% 50% 0;
+    left: 0px;
+    background: #161d3c;
+}
+
+.list {
+    padding: 10px 22px;
+    text-align: start;
+    list-style-type: none;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 0px 3px 2px #a6f9dd;
+    border-radius: 8px;
+    background: #f5efef;
+}

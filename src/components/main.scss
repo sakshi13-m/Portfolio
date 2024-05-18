@@ -1,0 +1,27 @@
+.intro-div {
+    display: flex;
+    padding-top: 48px;
+    background: #141c3ae8;
+    color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 -17px;
+}
+
+.text {
+    font-family: "europa", sans-serif;
+}
+
+.avatar-div {
+    border-radius: 50%;
+    width: 275px;
+    height: 300px;
+    box-shadow: 2px 2px 4px 2px lightblue;
+    margin: 40px 0px;
+}
+
+.devtool-img {
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+}
