@@ -1,10 +1,10 @@
 .about-me-div {
-    background-color: #ecf5f2fc;
+    background-color: rgba(236, 245, 242, 0.9882352941);
     color: #1b2d2d;
-    margin: 20px auto;
-    width: 80vw;
+    margin: 42px auto;
+    width: 90vw;
     box-shadow: 5px 3px 2px 4px #161d3c;
-    border-radius: 30px;
+    border-radius: 5px;
     font-size: 20px;
     padding: 10px 20px;
     position: relative;
@@ -32,5 +32,33 @@
     margin: auto;
     box-shadow: 1px 0px 3px 2px #a6f9dd;
     border-radius: 8px;
-    background: #f5efef;
+    background: #ffffff;
+}
+
+.table {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 94%;
+    margin: 36px auto;
+}
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 8px;
+    padding: 24px;
+    background: #161d3c;
+    color: white;
+    border-radius: 20px;
+    width: 25%;
+    box-shadow: 1px 2px 5px 0px #161d3c;
+}
+
+.skill-card-open {
+    color: #161d3c;
+    background: white;
 }

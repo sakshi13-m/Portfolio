@@ -1,7 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import './aboutMe.scss';
 
 export const AboutMe = () => {
+    const skillSet = {
+        'Languages': ['JavaScript', 'HTML', 'CSS', 'Typescript', 'Python'],
+        'FrameWorks': ['React', 'Redux', 'Next', 'Webpack', 'Bootstrap', 'Material UI', 'Lerna'],
+        'Dev Tools': ['Git', 'VS Code', 'Sublime Text', 'Postman', 'Jupyter Notebook', 'Jira', 'Auth0', 'Team city', 'Sentry', 'NVDA'],
+    }
+    const [showSkillCard, setShowSkillCard] = useState({'Languages': false, 'FrameWorks': false, 'Dev Tools': false})
+
+    const handleSkillCard = (type) => {
+        setShowSkillCard({
+            ...showSkillCard,
+            [type]: !showSkillCard[type]
+        })
+    }
+
     return (
         <div className="about-me-div">
             <span className="label">About Me</span>
@@ -17,6 +31,16 @@ export const AboutMe = () => {
                 <li>📐 Dedicated to creating intuitive and user-friendly interfaces.</li>
                 <li>🧩 Always excited to collaborate with teams to turn concepts into reality.</li>
             </ul>
+            <div className="table">
+                {
+                    Object.keys(skillSet).map((type) => (
+                        <div className={`skill-box ${showSkillCard[type] && 'skill-card-open'}`} onClick={() => handleSkillCard(type)}>
+                            {!showSkillCard[type] ? <label>{type}</label>
+                            :skillSet[type].map((skill) => <span>{skill}</span>)}
+                        </div>
+                    ))
+                }
+            </div>
         </div>
     )
 }
