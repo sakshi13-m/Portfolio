@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6d085fbe.css",
-    "main.js": "/Portfolio/static/js/main.bb954ba4.js",
+    "main.css": "/Portfolio/static/css/main.d8ca273d.css",
+    "main.js": "/Portfolio/static/js/main.d060659c.js",
     "static/media/intro.svg": "/Portfolio/static/media/intro.ca82e97c349a897082b6268dd7f8d733.svg",
-    "static/media/female-developer-background.avif": "/Portfolio/static/media/female-developer-background.9b9d87e42cefb4be48df.avif",
+    "static/media/female-developer-background.jpg": "/Portfolio/static/media/female-developer-background.9b9d87e42cefb4be48df.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.6d085fbe.css.map": "/Portfolio/static/css/main.6d085fbe.css.map",
-    "main.bb954ba4.js.map": "/Portfolio/static/js/main.bb954ba4.js.map"
+    "main.d8ca273d.css.map": "/Portfolio/static/css/main.d8ca273d.css.map",
+    "main.d060659c.js.map": "/Portfolio/static/js/main.d060659c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d085fbe.css",
-    "static/js/main.bb954ba4.js"
+    "static/css/main.d8ca273d.css",
+    "static/js/main.d060659c.js"
   ]
 }
