@@ -1,8 +1,65 @@
 .main {
-    height: 100vh;
-    font-family: "europa", sans-serif;
-    background: rgb(20 28 58);
-    overflow: auto;
-    font-size: 1.5rem;
-    text-align: center;
+  height: 100vh;
+  font-family: "europa", sans-serif;
+  // background: rgb(20 28 58);
+  overflow: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+  background-image: url("./assests/background_gradient.jpg");
+  background-size: cover;
+
+  // .navbar {
+  //     position: sticky;
+  //     top: 0;
+  //     background: #333;
+  //     color: #fff;
+  //     padding: 10px;
+  //     display: flex;
+  //     justify-content: space-around;
+  //   }
+
+  .navbar {
+    background-color: #150d49 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar .logo {
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar ul li {
+    padding: 14px 20px;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s, background-color 0.3s;
+  }
+
+  .navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+    color: #fff;
+  }
 }

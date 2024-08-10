@@ -1,0 +1,47 @@
+.intro-div {
+  display: flex;
+  padding-top: 48px;
+  color: aliceblue;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 96vh;
+  margin: 0 -17px;
+}
+
+.text {
+  font-family: "europa", sans-serif;
+}
+
+.avatar-div {
+  border-radius: 50%;
+  width: 275px;
+  height: 300px;
+  box-shadow: 2px 2px 4px 2px lightblue;
+  margin: 40px 0px;
+}
+
+.devtool-div {
+  height: inherit;
+  position: relative;
+  width: inherit;
+}
+
+.devtool-img {
+  margin-bottom: -0.45rem;
+  max-width: 534px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  opacity: 80%;
+}
+
+@media (max-width: 768px) {
+  .main {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
