@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d8ca273d.css",
-    "main.js": "/Portfolio/static/js/main.d060659c.js",
+    "main.css": "/Portfolio/static/css/main.00afaf20.css",
+    "main.js": "/Portfolio/static/js/main.11ddbf2a.js",
+    "static/media/mail.jpg": "/Portfolio/static/media/mail.b133681d47be11cb6f63.jpg",
+    "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.a7ba96474db96a84f358.png",
+    "static/media/github_PNG40.png": "/Portfolio/static/media/github_PNG40.1ff6d9646165b7f34af9.png",
     "static/media/intro.svg": "/Portfolio/static/media/intro.ca82e97c349a897082b6268dd7f8d733.svg",
     "static/media/female-developer-background.jpg": "/Portfolio/static/media/female-developer-background.9b9d87e42cefb4be48df.jpg",
+    "static/media/stackoverflow.webp": "/Portfolio/static/media/stackoverflow.fbf015bd7bc29a7111ab.webp",
+    "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.d8ca273d.css.map": "/Portfolio/static/css/main.d8ca273d.css.map",
-    "main.d060659c.js.map": "/Portfolio/static/js/main.d060659c.js.map"
+    "main.00afaf20.css.map": "/Portfolio/static/css/main.00afaf20.css.map",
+    "main.11ddbf2a.js.map": "/Portfolio/static/js/main.11ddbf2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ca273d.css",
-    "static/js/main.d060659c.js"
+    "static/css/main.00afaf20.css",
+    "static/js/main.11ddbf2a.js"
   ]
 }
