@@ -1,29 +1,64 @@
 .main-div {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 90vw;
-    margin: auto;
-    align-items: center;
-    h2 {
-        margin-right: 168px;
-    }
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 90vw;
+	margin: auto;
+	align-items: center;
+
+	.exp-card {
+		background-color: transparent !important;
+		color: #fff;
+		width: 50%;
+		box-shadow: 0px 1px 9px -1px #f1cff7,
+			0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+			0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+	}
+
+	.title-div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo-div {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.logo {
+		width: 40px;
+		height: auto;
+	}
+
+	.divider {
+		border-color: white;
+	}
+}
+
+.details {
+	background-color: transparent !important;
 }
 
 .list-item {
-    justify-content: center;
-    .timeline-left {
-        flex: none;
-        width: 30%;
-        margin-right: 0px;
-    }
-    
-    .timeline-right {
-        flex: none;
-        width: 40%;
-        h3 {
-            margin-top: 0px
-        }
-    }
-};
+	justify-content: center;
+
+	.timeline-left {
+		flex: none;
+		width: 30%;
+		margin-right: 0px;
+	}
+
+	.timeline-right {
+		flex: none;
+		width: 40%;
+
+		h3 {
+			margin-top: 0px
+		}
+	}
+}
+
+;
