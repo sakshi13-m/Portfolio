@@ -1,0 +1,40 @@
+.table {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 90%;
+  margin: 36px auto;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.skill-title {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.skill-div {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff !important;
+  gap: 20px;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  gap: 8px;
+  padding: 24px;
+  background-color: transparent !important;
+  color: white !important;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px 0px #ffffff !important;
+}
+
+.skill-tag {
+  color: #ffffff !important;
+  padding: 16px 8px !important;
+  background: #150d49 !important;
+}

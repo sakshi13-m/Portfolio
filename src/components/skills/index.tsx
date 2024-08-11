@@ -1,33 +1,24 @@
-import React, { useState } from "react"
-
-type skillCard = {
-  [key: string]: boolean
-}
+import { Chip, Paper } from "@mui/material"
+import React from "react"
+import './index.scss'
+import { skills } from "../../constants"
 
 export const Skills = () => {
-  const skillSet: { [key: string]: Array<string> } = {
-    'Languages': ['JavaScript', 'HTML', 'CSS', 'Typescript', 'Python'],
-    'FrameWorks': ['React', 'Redux', 'Next', 'Webpack', 'Bootstrap', 'Material UI', 'Lerna'],
-    'Dev Tools': ['Git', 'VS Code', 'Sublime Text', 'Postman', 'Jupyter Notebook', 'Jira', 'Auth0', 'Team city', 'Sentry', 'NVDA'],
-  }
-  const [showSkillCard, setShowSkillCard] = useState<skillCard>({ 'Languages': false, 'FrameWorks': false, 'Dev Tools': false })
+  const width = ['70%', '80%', '90%', '100%']
 
-  const handleSkillCard = (type: string) => {
-    setShowSkillCard({
-      ...showSkillCard,
-      [type]: !showSkillCard[type]
-    })
-  }
   return (
+    <div id='skills'>
+    <h2>Skills</h2>
     <div className="table">
       {
-        Object.keys(skillSet).map((type) => (
-          <div className={`skill-box ${showSkillCard[type] && 'skill-card-open'}`} onClick={() => handleSkillCard(type)}>
-            {!showSkillCard[type] ? <label>{type}</label>
-              : skillSet[type].map((skill) => <span>{skill}</span>)}
-          </div>
+        Object.keys(skills).map((type, i) => (
+          <Paper className={`skill-box`} style={{width: width[i]}}>
+            <h3 className="skill-title">{type}</h3>
+            <div className="skill-div">{skills[type].map((skill) => <Chip avatar={skill.icon} label={skill.name} variant="outlined" className="skill-tag" />)}</div>
+          </Paper>
         ))
       }
+    </div>
     </div>
   )
 }
