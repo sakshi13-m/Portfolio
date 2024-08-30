@@ -4,7 +4,7 @@ import './index.scss'
 import { skills } from "../../constants"
 
 export const Skills = () => {
-  const width = ['70%', '80%', '90%', '100%']
+  const width = ['70%', '80%', '90%', '96%']
 
   return (
     <section id='skills' className="main-div">

@@ -4,6 +4,7 @@ import './aboutMe.scss';
 export const AboutMe = () => {
   return (
     <section id="about" className="about-me-div">
+      <h2> About </h2>
       <p>
         I am a Front-end Developer (React.js Developer), a passionate programmer, and a Software developer with a keen eye for design and a drive to deliver exceptional user experiences. I'm on a mission to transform ideas into interactive and visually stunning web applications.
         Currently working as a Software Engineer at Natwest Group. Having an overall 3.5 years of experiences as a Frontend Developer.

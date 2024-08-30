@@ -1,4 +1,8 @@
 .navbar-div {
   background-color: inherit !important;
+  padding: 0 !important;
   justify-content: space-evenly !important;
+  > ul {
+    flex-wrap: wrap;
+  }
 }
