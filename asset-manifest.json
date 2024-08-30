@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f62646c1.css",
-    "main.js": "/Portfolio/static/js/main.6ebd782a.js",
+    "main.css": "/Portfolio/static/css/main.b05c7a9e.css",
+    "main.js": "/Portfolio/static/js/main.a4975e34.js",
     "static/media/mail.jpg": "/Portfolio/static/media/mail.b133681d47be11cb6f63.jpg",
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.a7ba96474db96a84f358.png",
     "static/media/natwest.png": "/Portfolio/static/media/natwest.e25975f2236af544cdec.png",
@@ -11,11 +11,11 @@
     "static/media/stackoverflow.webp": "/Portfolio/static/media/stackoverflow.fbf015bd7bc29a7111ab.webp",
     "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.f62646c1.css.map": "/Portfolio/static/css/main.f62646c1.css.map",
-    "main.6ebd782a.js.map": "/Portfolio/static/js/main.6ebd782a.js.map"
+    "main.b05c7a9e.css.map": "/Portfolio/static/css/main.b05c7a9e.css.map",
+    "main.a4975e34.js.map": "/Portfolio/static/js/main.a4975e34.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62646c1.css",
-    "static/js/main.6ebd782a.js"
+    "static/css/main.b05c7a9e.css",
+    "static/js/main.a4975e34.js"
   ]
 }
