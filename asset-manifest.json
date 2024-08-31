@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.91e638f3.css",
-    "main.js": "/Portfolio/static/js/main.a6da61b6.js",
+    "main.css": "/Portfolio/static/css/main.517c8d38.css",
+    "main.js": "/Portfolio/static/js/main.bcb02437.js",
     "static/media/mail.jpg": "/Portfolio/static/media/mail.b133681d47be11cb6f63.jpg",
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.a7ba96474db96a84f358.png",
     "static/media/natwest.png": "/Portfolio/static/media/natwest.e25975f2236af544cdec.png",
@@ -11,11 +11,11 @@
     "static/media/stackoverflow.webp": "/Portfolio/static/media/stackoverflow.fbf015bd7bc29a7111ab.webp",
     "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.91e638f3.css.map": "/Portfolio/static/css/main.91e638f3.css.map",
-    "main.a6da61b6.js.map": "/Portfolio/static/js/main.a6da61b6.js.map"
+    "main.517c8d38.css.map": "/Portfolio/static/css/main.517c8d38.css.map",
+    "main.bcb02437.js.map": "/Portfolio/static/js/main.bcb02437.js.map"
   },
   "entrypoints": [
-    "static/css/main.91e638f3.css",
-    "static/js/main.a6da61b6.js"
+    "static/css/main.517c8d38.css",
+    "static/js/main.bcb02437.js"
   ]
 }
