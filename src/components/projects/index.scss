@@ -1,0 +1,54 @@
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-around;
+
+  .project-card {
+    margin: 0px;
+    padding: 8px;
+    background-color: transparent !important;
+    color: #fff;
+    width: 46%;
+    box-shadow: 0px 1px 9px -1px #f1cff7,
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+    @media (max-width: 760px) {
+      float: none !important;
+      width: inherit;
+    }
+  }
+
+  .title-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .logo-div>a {
+      color: #dc98b9;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+
+  .skills-box {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill-tag {
+    background: none !important;
+    padding: 0px !important;
+  }
+
+  .project-details {
+    text-align: justify;
+    font-size: 18px;
+  }
+}

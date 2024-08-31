@@ -4,5 +4,9 @@
   justify-content: space-evenly !important;
   > ul {
     flex-wrap: wrap;
+    @media (max-width: 760px) {
+      font-size: 18px;
+      gap: 8px !important;
+    }
   }
 }

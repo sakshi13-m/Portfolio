@@ -7,6 +7,7 @@ import { NavBar } from './components/navbar'
 import { Skills } from './components/skills';
 import { SpeedDialComp } from './components/speedDial';
 import { Contact } from './components/contact';
+import { Projects } from './components/projects';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <AboutMe />
         <Skills />
         <Experience />
+        <Projects />
         <Contact />
       </div>
       <SpeedDialComp />

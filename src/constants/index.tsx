@@ -86,3 +86,75 @@ export const Experiences = [
     ]
   }
 ]
+
+export const ProjectsList = [
+  {
+    "title": "Movie List App",
+    "description": "A dynamic movie list application that allows users to search, filter, and save their favorite movies.",
+    "details": [
+      "Integrated with a public movie API to fetch the latest movies.",
+      "Implemented advanced filtering options to enhance user search experience.",
+      "Designed the UI using Bootstrap and SCSS for a modern look and feel."
+    ],
+    "technologies": ["React.js", "API", "Bootstrap", "Axios", "SCSS", "Git"],
+    "role": "Frontend Developer",
+    "links": {
+      "live_demo": "https://sakshi13-m.github.io/movie-list-app/",
+      "source_code": "https://github.com/sakshi13-m/movie-list-app",
+      "medium_article": null
+    },
+    "date": "2024"
+  },
+  {
+    "title": "Carbon Emission Tracking Website",
+    "description": "Developed a web application for tracking carbon emissions to help users reduce their carbon footprint.",
+    "details": [
+      "Implemented dynamic data visualization for better user insights.",
+      "Optimized performance for faster loading times and smooth user experience.",
+      "Integrated RESTful APIs to fetch and display real-time data."
+    ],
+    "technologies": ["React.js", "Redux Toolkit", "Next.js", "Material-UI", "TypeScript", "Jest", "Cypress"],
+    "role": "Frontend Developer",
+    "links": {
+      "live_demo": "https://carbonplanner.natwest.com/",
+      "source_code": null,
+      "medium_article": null
+    },
+    "date": "2022"
+  },
+  {
+    "title": "EFI Calculator",
+    "description": "Built an EFI Calculator for EquiFi to estimate financial factors.",
+    "details": [
+      "Provided accurate financial estimations with a user-friendly interface.",
+      "Implemented responsive design for seamless usage across devices.",
+      "Collaborated with backend developers to integrate API endpoints."
+    ],
+    "technologies": ["React.js", "Redux", "Bootstrap", "SCSS", "Jira", "Team City"],
+    "role": "Frontend Developer",
+    "links": {
+      "live_demo": "https://www.equifi.com/get-estimate/",
+      "source_code": null,
+      "medium_article": null
+    },
+    "date": "2021"
+  },
+  {
+    "title": "Todo List App",
+    "description": "A simple and intuitive Todo List application that helps users organize their tasks.",
+    "details": [
+      "Features include adding, editing, deleting, and marking tasks as complete.",
+      "Used LocalStorage to persist tasks between sessions.",
+      "Designed a clean and minimalistic user interface."
+    ],
+    "technologies": ["React.js", "LocalStorage", "JavaScript", "HTML", "CSS", "Git"],
+    "role": "Frontend Developer",
+    "links": {
+      "live_demo": "https://sakshi13-m.github.io/todo-list-app/",
+      "source_code": "https://github.com/sakshi13-m/todo-list-app",
+      "medium_article": null
+    },
+    "date": "2023"
+  },
+]
+

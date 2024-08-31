@@ -6,7 +6,7 @@ import './main.scss'
 const Main = () => {
   return (
     <section id="home" className="intro-div">
-      <div style={{ width: 'inherit', margin: '48px'}}>
+      <div style={{ width: 'inherit'}}>
         <img src={FemaleDev} alt="female-dev" className="avatar-div" />
         <h2>Hi, I'm Sakshi</h2>
         <h3>Frontend Developer</h3>
