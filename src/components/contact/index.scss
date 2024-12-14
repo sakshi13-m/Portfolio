@@ -1,8 +1,35 @@
-.contact-div {
-  .icon-button {
-    // height: 56px;
+.main-div {
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    >div {
+      color: #FFF;
+      width: 80%;
+
+      >div>input,
+      textArea,
+      label {
+        color: #FFF;
+        text-align: center;
+      }
+    }
   }
-  
-  .image-icon {
+
+  .input-button {
+    margin-top: 24px;
+  }
+
+  .contact-div {
+    background: inherit;
+
+    > button {
+      background: inherit;
+      cursor: pointer;
+      outline: none;
+      border: none;
+    }
   }
 }

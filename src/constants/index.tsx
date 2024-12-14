@@ -10,11 +10,11 @@ import { SiJavascript, SiTypescript, SiHtml5, SiCss3, SiSass, SiPython, SiReact,
 import MuiLogo from '../assests/mui-logo.svg';
 
 export const actions = [
-  { icon: github, name: 'Github', link: 'https://github.com/sakshi13-m' },
-  { icon: linkedIn, name: 'LinkedIn', link: 'https://www.linkedin.com/in/sakshi-mahajan-13d99/' },
-  { icon: mail, name: 'Gmail', link: 'mailto:sakshi1913@gmail.com' },
-  { icon: stackoverflow, name: 'StackOverFlow', link: 'https://stackoverflow.com/users/17497509/sakshi-mahajan' },
-  { icon: call, name: 'Phone', link: 'tel:91-6264101835' }
+  { icon: github, name: 'Github', link: 'https://github.com/sakshi13-m', isSocial: true },
+  { icon: linkedIn, name: 'LinkedIn', link: 'https://www.linkedin.com/in/sakshi-mahajan-13d99/', isSocial: true },
+  { icon: mail, name: 'Gmail', link: 'mailto:sakshi1913@gmail.com', isSocial: false },
+  { icon: stackoverflow, name: 'StackOverFlow', link: 'https://stackoverflow.com/users/17497509/sakshi-mahajan', isSocial: true },
+  { icon: call, name: 'Phone', link: 'tel:91-6264101835', isSocial: false }
 ];
 
 
