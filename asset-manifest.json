@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.afc15071.css",
-    "main.js": "/Portfolio/static/js/main.a7d0fc54.js",
+    "main.js": "/Portfolio/static/js/main.5ce98126.js",
     "static/media/mail.jpg": "/Portfolio/static/media/mail.b133681d47be11cb6f63.jpg",
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.a7ba96474db96a84f358.png",
     "static/media/natwest.png": "/Portfolio/static/media/natwest.e25975f2236af544cdec.png",
@@ -12,10 +12,10 @@
     "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
     "index.html": "/Portfolio/index.html",
     "main.afc15071.css.map": "/Portfolio/static/css/main.afc15071.css.map",
-    "main.a7d0fc54.js.map": "/Portfolio/static/js/main.a7d0fc54.js.map"
+    "main.5ce98126.js.map": "/Portfolio/static/js/main.5ce98126.js.map"
   },
   "entrypoints": [
     "static/css/main.afc15071.css",
-    "static/js/main.a7d0fc54.js"
+    "static/js/main.5ce98126.js"
   ]
 }
