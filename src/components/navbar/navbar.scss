@@ -2,11 +2,36 @@
   background-color: inherit !important;
   padding: 0 !important;
   justify-content: space-evenly !important;
+  
   > ul {
     flex-wrap: wrap;
+    
     @media (max-width: 760px) {
-      font-size: 18px;
-      gap: 8px !important;
+      font-size: 16px;
+      gap: 4px !important;
+      justify-content: center;
+      
+      li {
+        padding: 8px 12px !important;
+        
+        a {
+          font-size: 1rem !important;
+          padding: 6px 8px !important;
+        }
+      }
+    }
+    
+    @media (max-width: 480px) {
+      font-size: 14px;
+      
+      li {
+        padding: 6px 8px !important;
+        
+        a {
+          font-size: 0.9rem !important;
+          padding: 4px 6px !important;
+        }
+      }
     }
   }
 }

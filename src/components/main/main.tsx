@@ -5,17 +5,17 @@ import './main.scss'
 
 const Main = () => {
   return (
-    <section id="home" className="intro-div">
+    <main id="home" className="intro-div">
       <div style={{ width: 'inherit'}}>
-        <img src={FemaleDev} alt="female-dev" className="avatar-div" />
-        <h2>Hi, I'm Sakshi</h2>
-        <h3>Frontend Developer</h3>
-        <span>I design and code beautifully simple things, and I love what I do.</span>
+        <img src={FemaleDev} alt="Portrait of Sakshi Mahajan, Frontend Developer" className="avatar-div" />
+        <h1>Hi, I'm Sakshi</h1>
+        <h2>Frontend Developer</h2>
+        <p>I design and code beautifully simple things, and I love what I do.</p>
       </div>
       <div className="devtool-div">
-        <img src={DevToolImg} alt="devtool" className="devtool-img" />
+        <img src={DevToolImg} alt="Developer tools and coding environment illustration" className="devtool-img" />
       </div>
-    </section>
+    </main>
   )
 }
 

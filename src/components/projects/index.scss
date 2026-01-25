@@ -2,7 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  justify-content: space-around;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
 
   .project-card {
     margin: 0px;
@@ -10,29 +12,66 @@
     background-color: transparent !important;
     color: #fff;
     width: 46%;
+    min-width: 300px;
     box-shadow: 0px 1px 9px -1px #f1cff7,
       0px 1px 1px 0px rgba(0, 0, 0, 0.14),
       0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
     @media (max-width: 760px) {
-      float: none !important;
-      width: inherit;
+      width: 90%;
+      min-width: unset;
+    }
+    
+    @media (max-width: 480px) {
+      width: 95%;
     }
   }
 
   .title-div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
+    gap: 12px;
 
-    .logo-div>a {
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .logo-div > a {
       color: #dc98b9;
       text-decoration: none;
       text-align: start;
       display: flex;
       align-items: center;
       gap: 8px;
+      
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        outline: 2px solid #dc98b9;
+        outline-offset: 2px;
+      }
+    }
+    
+    .project-links {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 4px;
+      
+      @media (max-width: 600px) {
+        align-items: flex-start;
+      }
+      
+      a {
+        &:hover,
+        &:focus {
+          outline: 2px solid #fff;
+          outline-offset: 2px;
+        }
+      }
     }
   }
 
@@ -40,15 +79,26 @@
     gap: 8px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
   }
 
   .skill-tag {
     background: none !important;
     padding: 0px !important;
+    margin: 2px;
   }
 
   .project-details {
     text-align: justify;
     font-size: 18px;
+    
+    @media (max-width: 600px) {
+      font-size: 16px;
+    }
+    
+    ul {
+      text-align: left;
+      padding-left: 20px;
+    }
   }
 }

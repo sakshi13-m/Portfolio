@@ -15,7 +15,7 @@ const App = () => {
   return (
     <div className="main">
       <NavBar />
-      <div>
+      <div id="main-content">
         <Main />
         <AboutMe />
         <Skills />

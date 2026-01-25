@@ -2,41 +2,49 @@
 	color: white;
 	display: flex;
 	flex-direction: column;
-	align-items: start;
+	align-items: center;
 	width: 90vw;
 	margin: auto;
-	align-items: center;
 
 	.exp-card {
 		background-color: transparent !important;
 		color: #fff;
-		width: 50%;
+		width: 80%;
+		max-width: 800px;
+		margin: 20px auto !important;
 		box-shadow: 0px 1px 9px -1px #f1cff7,
 			0px 1px 1px 0px rgba(0, 0, 0, 0.14),
 			0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 
 		@media (max-width: 760px) {
-			float: none !important;
-			width: inherit;
+			width: 95%;
 		}
 	}
 
 	.title-div {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 		flex-wrap: wrap;
+		gap: 16px;
+		
+		@media (max-width: 600px) {
+			flex-direction: column;
+			align-items: flex-start;
+		}
 	}
 
 	.logo-div {
 		display: flex;
 		align-items: center;
 		gap: 10px;
+		flex-wrap: wrap;
 	}
 
 	.logo {
 		width: 40px;
 		height: auto;
+		border-radius: 4px;
 	}
 
 	.divider {
@@ -66,5 +74,3 @@
 		}
 	}
 }
-
-;

@@ -9,6 +9,24 @@
   background-image: url("./assests/background_gradient.jpg");
   background-size: cover;
 
+  /* Skip link styles */
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1001;
+    border-radius: 4px;
+    font-size: 14px;
+    
+    &:focus {
+      top: 6px;
+    }
+  }
+
   .navbar {
     background-color: #150d49 !important;
     position: fixed;
@@ -44,11 +62,42 @@
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s, background-color 0.3s;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+    
+    &:hover,
+    &:focus {
+      background-color: #575757;
+      color: #fff;
+      outline: 2px solid #fff;
+      outline-offset: 2px;
+    }
   }
 
-  .navbar ul li a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-    color: #fff;
+  /* Focus indicators for interactive elements */
+  button:focus,
+  a:focus,
+  input:focus,
+  textarea:focus {
+    outline: 2px solid #0066cc;
+    outline-offset: 2px;
+  }
+
+  /* Improve button accessibility */
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.1);
+      outline: 2px solid #0066cc;
+      outline-offset: 2px;
+    }
   }
 }

@@ -19,21 +19,33 @@ export const Experience = () => {
     <DocumentScannerIcon style={{ color: '#FFF' }} />,
   ];
 
-  const floatDir: any = ['left', 'right']
   return (
-    <section id="experience" className="main-div">
-      <h2>Experience</h2>
-      <Box>
+    <section id="experience" className="main-div" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+      <Box role="list" aria-label="Work experience timeline">
         {Experiences.map((exp, i) => (
-          <Card sx={{ margin: 2, padding: 2 }} className="exp-card" style={{ float: floatDir[i] || 'left' }}>
+          <Card key={`${exp.company}-${i}`} sx={{ margin: 2, padding: 2 }} className="exp-card" role="listitem">
             <CardContent>
               <Box className="title-div">
                 <Box>
-                  <Typography variant="h4" className="logo-div">
-                    <img className="logo" src={exp.logo} alt={`${exp.company} Logo`} />
+                  <Typography variant="h3" className="logo-div">
+                    <img className="logo" src={exp.logo} alt={`${exp.company} company logo`} />
                     {exp.company}
                   </Typography>
-                  <Typography onClick={() => window.open(exp.link)} variant="h6" component="div">
+                  <Typography 
+                    variant="h4" 
+                    component="button"
+                    onClick={() => window.open(exp.link)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        window.open(exp.link);
+                      }
+                    }}
+                    tabIndex={0}
+                    aria-label={`Visit ${exp.company} website`}
+                    style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}
+                  >
                     {exp.title}
                   </Typography>
                 </Box>
@@ -47,10 +59,10 @@ export const Experience = () => {
                 </Box>
               </Box>
               <Divider className="divider" sx={{ marginY: 2 }} />
-              <List>
+              <List role="list" aria-label={`Responsibilities at ${exp.company}`}>
                 {exp.responsibilities.map((responsibility, index) => (
-                  <ListItem key={index}>
-                    <ListItemIcon>
+                  <ListItem key={index} role="listitem">
+                    <ListItemIcon aria-hidden="true">
                       {icons[index % icons.length]}
                     </ListItemIcon>
                     <ListItemText primary={responsibility} />
