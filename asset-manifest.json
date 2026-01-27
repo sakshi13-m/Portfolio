@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.afc15071.css",
-    "main.js": "/Portfolio/static/js/main.5ce98126.js",
+    "main.css": "/Portfolio/static/css/main.5cba13eb.css",
+    "main.js": "/Portfolio/static/js/main.ab8d7ba2.js",
     "static/media/mail.jpg": "/Portfolio/static/media/mail.b133681d47be11cb6f63.jpg",
     "static/media/linkedIn.png": "/Portfolio/static/media/linkedIn.a7ba96474db96a84f358.png",
     "static/media/natwest.png": "/Portfolio/static/media/natwest.e25975f2236af544cdec.png",
@@ -9,13 +9,13 @@
     "static/media/intro.svg": "/Portfolio/static/media/intro.ca82e97c349a897082b6268dd7f8d733.svg",
     "static/media/female-developer-background.jpg": "/Portfolio/static/media/female-developer-background.9b9d87e42cefb4be48df.jpg",
     "static/media/stackoverflow.webp": "/Portfolio/static/media/stackoverflow.fbf015bd7bc29a7111ab.webp",
-    "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.afc15071.css.map": "/Portfolio/static/css/main.afc15071.css.map",
-    "main.5ce98126.js.map": "/Portfolio/static/js/main.5ce98126.js.map"
+    "static/media/mui-logo.svg": "/Portfolio/static/media/mui-logo.fab4e70b71b046796bcf505701bb2b9b.svg",
+    "main.5cba13eb.css.map": "/Portfolio/static/css/main.5cba13eb.css.map",
+    "main.ab8d7ba2.js.map": "/Portfolio/static/js/main.ab8d7ba2.js.map"
   },
   "entrypoints": [
-    "static/css/main.afc15071.css",
-    "static/js/main.5ce98126.js"
+    "static/css/main.5cba13eb.css",
+    "static/js/main.ab8d7ba2.js"
   ]
 }
